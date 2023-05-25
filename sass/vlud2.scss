@@ -1,0 +1,40 @@
+@import "./nav_bar";
+@import "./karthik_colors";
+@import "./body_bg";
+table
+{
+    @include glass();
+    padding: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40vw;
+    margin-left: 30vw;
+    margin-top: 30vh;
+    input[type="text"]
+    {
+        @include glass();
+        position:absolute;
+        margin-left: 2.5vw;
+        &:hover
+        {
+            transform:scale(1.25);
+            box-shadow:0px 0px 5px 4px $color11;
+        }
+    }
+    input[type="submit"]
+    {
+        margin-top: 2.5vh;
+        margin-right: 5vw;
+    }
+    input[type="reset"]
+    {
+        margin-top: 2.5vh;
+        margin-left: 2.5vw;
+        margin-right: 5vw;
+    }
+    img
+    {
+        margin-left: 17.5vw;
+    }
+}

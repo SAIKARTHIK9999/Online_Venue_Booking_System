@@ -1,0 +1,48 @@
+#my_mic
+{
+    margin-left: 17.5vw;
+}
+.talk
+{
+    background: transparent;
+    box-shadow: 0 .5vh 1.5vh rgba(0, 0, 0, 1.75);
+    width: 4vw;
+    height: 8.5vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.circle
+{
+    width: .8vw;
+    height: 3vh;
+    background: #000;
+    position: absolute;
+    border-radius: 1vh;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle::before
+{
+    content: ')';
+    position: absolute;
+    bottom: -115%;
+    left: .3vw;
+    transform: rotate(90deg);
+    font: 1.4rem cursive;
+    color: #000;
+}
+.circle::after
+{
+    content: '|';
+    position: absolute;
+    bottom: -115%;
+    left: .2vw;
+    font-weight: 1000;
+    font: 16px cursive;
+    color: #000;
+}
+.circle:hover
+{
+    background: #fff;
+}

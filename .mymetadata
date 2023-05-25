@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="OnlineVenueBooking"
+  id="myeclipse.1335818395593"
+  context-root="/OnlineVenueBooking"
+  j2ee-spec="5.0"
+  archive="OnlineVenueBooking.war">
+  <attributes>
+    <attribute name="webrootdir" value="OnlineVenueBooking" />
+  </attributes>
+</project-module>
+

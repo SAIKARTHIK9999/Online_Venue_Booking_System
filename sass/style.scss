@@ -1,0 +1,68 @@
+@import "./body_bg";
+@import "./karthik_colors";
+@import "./nav_bar";
+@import "./flowers_animation";
+body
+{
+    #right_svg
+    {
+        position: absolute;
+        max-height: 35vh;
+        margin-top: 30vh;
+    }
+    #left_svg
+    {
+        position: absolute;
+        max-height: 35vh;
+        margin-left: 95vw;
+        margin-top: -20vh;
+    }
+    #header
+    {
+        height: 10vh;
+        background-color: transparent;
+        @include glass();
+        margin-bottom: 1.5vh;
+    }
+    #header 
+    {
+        h1
+        {
+            font-size: 3vh;
+            font-weight: bolder;
+            letter-spacing: -.1vh;
+            padding: 2.2vh 0 .5vh 1vh;
+            margin-bottom: 1vh;
+            a
+            {
+                color : $color10;
+                text-decoration: none;
+                &:hover
+                {
+                    color: rgb(136, 119, 119);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    #audio_visualizer
+    {
+        margin-left: 30vw;
+    }
+    #wrap
+    {
+        padding: 1.0vh 1.0vh .3vh 1.0vh;
+        width: 76vh; 
+        margin: 2vh auto;
+        @include glass();
+    }  
+    #footer
+    {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: .1vh solid #ccc;
+        padding: 1vh .5vh;
+    }
+}

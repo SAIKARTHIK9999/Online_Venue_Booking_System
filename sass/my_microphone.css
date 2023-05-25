@@ -1,0 +1,98 @@
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+#my_mic {
+  margin-left: 15vw;
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#my_mic .talk {
+  background: transparent;
+  -webkit-box-shadow: 0 0.5vh 1.5vh black;
+          box-shadow: 0 0.5vh 1.5vh black;
+  width: 4vw;
+  height: 8.5vh;
+  border-radius: 50%;
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#my_mic .talk .circle {
+  width: .8vw;
+  height: 3vh;
+  background: #000000;
+  position: absolute;
+  border-radius: 1vh;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#my_mic .talk .circle:hover {
+  background: #ffffff;
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#my_mic .talk .circle::before {
+  content: ')';
+  position: absolute;
+  bottom: -80%;
+  left: .3vw;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font: 1.4rem cursive;
+  color: #000;
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#my_mic .talk .circle::after {
+  content: '|';
+  position: absolute;
+  bottom: -82.5%;
+  left: .2vw;
+  font-weight: 1000;
+  font: .8rem cursive;
+  color: #000;
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#my_menu {
+  margin-top: -7vh;
+  font-size: .65rem;
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#dmnb {
+  font-size: .65rem;
+  cursor: none;
+  cursor: url("../curzors/Link Select.cur"), auto;
+}
+
+#search {
+  background: #f2f2f2;
+  margin-top: -4vh;
+  border-radius: .6vw;
+  width: 12.5vw;
+  max-height: 5vh;
+  margin-left: 35vw;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: black;
+          box-shadow: black;
+  cursor: none;
+  cursor: url("../curzors/Blue Pencil 1 Normal.cur"), auto;
+}
+
+#search:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=my_microphone.css.map */

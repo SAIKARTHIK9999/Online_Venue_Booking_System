@@ -1,0 +1,10 @@
+@import "./body_bg";
+@import "./karthik_colors";
+table
+{
+    margin-top: .75vh;
+    margin-left: .5vw;
+    margin-right: .5vw;
+    font-size: .6rem;
+    @include glass();
+}

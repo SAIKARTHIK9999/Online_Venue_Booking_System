@@ -1,0 +1,36 @@
+@import "./karthik_colors";
+@import "./nav_bar";
+@import "./body_bg";
+#wrap
+{
+    @include glass();
+    max-width: 60vw;
+    margin-left: 20vw;
+    margin-top: 22.5vh;
+    padding: 2.5vh;
+    #header
+    {
+        @include glass();
+        max-width: 57.5vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.5vh;
+        color: $color10;
+    }
+    table
+    {
+        max-width: 57.5vw;
+        @include glass();
+        position: relative;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        margin-bottom: 2.5vh;
+        padding: 1.8vh;
+    }
+    section
+    {
+        display: flex;
+        justify-content: center;
+    }
+}

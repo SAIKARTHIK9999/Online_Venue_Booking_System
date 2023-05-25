@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navbar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+  <nav id="navbar"class="navbar navbar-expand-lg navbar-light" style="font-weight: bolder;">
+    <div class="container-fluid">
+        <section id="my_mic">
+          <div id='microphone' class="animate__animated animate__backInUp animate__delay-5s">
+            <div class="talk" title="Ask ANA">
+              <div class="circle">
+                <h3 class="content"></h3>
+                <script src="js/Full_Duplex_Audio.js"></script>
+                <link rel="stylesheet" href="./sass/my_microphone.css">
+              </div>
+            </div>
+          </div>
+        </section>
+    <form class="d-flex">
+      <input class="form-control me-2" id="search" value="" type="search" placeholder="Search"  aria-label="Search" onchange="openPage()">
+    </form>
+
+
+    <section id="my_menu">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dmnb" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+              <ul class="dropdown-menu" id="dmnb"aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" id="dmnb"href="services.jsp">Services</a></li>
+                <li><a class="dropdown-item" id="dmnb"href="about.jsp">About us</a></li>
+                <li><a class="dropdown-item" id="dmnb"href="contact.jsp">Contact us</a></li>
+              </ul>
+          </li>
+
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dmnb" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Authentication
+            </a>
+            <ul class="dropdown-menu" id="dmnb"aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" id="dmnb"href="registration.jsp">Registration</a></li>
+              <li><a class="dropdown-item" id="dmnb"href="memberlogin.jsp">Member login</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a style="margin-right: 12.5vw;"class="nav-link dropdown-toggle" id="dmnb" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Facilities
+            </a>
+            <ul class="dropdown-menu" id="dmnb"aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" id="dmnb"href="reservation.jsp">Online Reservation</a></li>
+              <li><a class="dropdown-item" id="dmnb"href="cancellation.jsp">Cancellation</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a id="dmnb"class="dropdown-item" href="./venue_provider/provide_venues.html">Provide Venue</a></li>
+            </ul>
+          </li>
+        </ul>         
+      </div>
+    </section>
+  </nav>
+  <script defer src="js/search.js"></script>  
+</body>
+</html>

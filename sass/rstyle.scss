@@ -1,0 +1,24 @@
+@import "./karthik_colors";
+*{
+    margin: auto;
+    padding: auto;
+    font-family: 'helvetica',sans-serif;
+    body
+    {
+        padding: 25px;
+        #real-file
+        {
+            display: none;
+        }
+        #custom-button
+        {
+            cursor: pointer;
+        }
+        #custom-text
+        {
+            color: $color;
+            cursor: pointer;
+        }
+    }
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crousel</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <section class = "animate_animated wow animate__heartBeat">
+        <img src="images/28.webp" alt="Example pic" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="font-weight: bolder;font-size:  35px;color: black;">Reserve Your Place Any Time ,Any Where</h5>
+          <p style="font-weight: bolder;color: black;font-size: 20px;">A perfect location for all celebrations, 
+            We give you a wonderful setting where you can enjoy your occasion in an environment that has 
+            your interests in mind.
+            <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+           </p>
+        </div>
+        </section>
+      </div>
+      <div class="carousel-item">
+        <section class = "animate_animated wow animate__heartBeat">
+        <img src="images/30.webp" alt="Example pic" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: bolder;font-size:  35px;color: rgb(255, 204, 0);">light up moments as memories</h5>
+            <p style="color: gold;font-size: 20px;">
+              This Web site offers you unparalleled and supreme facilities.
+                Weddings, Receptions, Family Occasions and other Parties
+                Meetings and Conventions
+              
+              Our services allow flexibility as you organize your festivity in your own special way.
+            </p>
+        </div>
+      </section>
+      </div>
+      <div class="carousel-item">
+        <section class = "animate_animated wow animate__heartBeat">
+        <img src="images/32.webp" alt="Example pic" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: bolder;font-size:  35px;color: greenyellow;">Vast varieties of food</h5>
+            <p style="font-weight: bolder;color: yellow;font-size: 20px;">
+                Taste the 20 diffrent foods with desert
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+        </div>
+      </section>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <script>
+        var wow = new WOW(
+      {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       0,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null,    // optional scroll container selector, otherwise use window,
+        resetAnimation: true,     // reset animation on end (default is true)
+      }
+    );
+    wow.init();
+  </script>
+</body>
+</html>

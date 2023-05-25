@@ -1,0 +1,15 @@
+@import "./nav_bar";
+@import "./karthik_colors";
+@import "./body_bg";
+section
+{
+    @include glass();
+    padding: 2.5vw;
+    max-width: 25vw;
+    margin-left: 37.5vw;
+    margin-top: 35vh;
+    button
+    {
+        margin-left: 5.5vw;
+    }
+}

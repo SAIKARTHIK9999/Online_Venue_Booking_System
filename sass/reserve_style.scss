@@ -1,0 +1,22 @@
+@import "./body_bg";
+@import "./nav_bar";
+@import "./karthik_colors";
+@import "./flowers_animation";
+#content
+{
+    display: flex;
+    justify-content:center;
+    #wrap
+    {
+        margin-top: 20vh;
+        max-width: 75vw;
+        @include glass();
+        padding: 5vh;
+        h1
+        {
+            @include glass();
+            color: $color10;
+            font-weight:bolder;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import "./body_bg";
+h1
+{
+    padding: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn
+    {
+        margin-top: 30vh;
+        margin-left: 1vw;
+    }
+}

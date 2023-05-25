@@ -1,0 +1,20 @@
+@import "./_body_bg";
+@mixin center 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#audio_visualizer,
+#admin,
+#pooja,
+#usr
+{
+    @include center();
+}
+#logout
+{
+    margin-left: 92.5vw;
+    margin-top: 2.5vh;
+    position: relative;
+}

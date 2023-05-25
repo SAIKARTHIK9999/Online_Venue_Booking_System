@@ -1,0 +1,35 @@
+@import "./nav_bar";
+@import "./karthik_colors";
+@import "./body_bg";
+table
+{
+    margin-left: 27.5vw;
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    @include glass();
+    max-width: 40vw;
+        input[type="text"]
+        {
+            @include glass();
+            position:absolute;
+            margin-left: 1vw;
+            &:hover
+            {
+                transform:scale(1.25);
+                box-shadow:0px 0px 5px 4px $color11;
+            }
+        }
+        img
+        {
+            margin-left: 17.5vw;
+        }
+        input[type="submit"],
+        input[type="reset"]
+        {
+            margin-top: 2.5vh;
+            margin-right: 2.5vw;           
+        }
+}

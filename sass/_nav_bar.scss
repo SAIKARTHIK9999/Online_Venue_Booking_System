@@ -1,0 +1,33 @@
+#navbar
+{
+    img 
+    {
+        width: 3vw;
+        height: 4vh;
+    }
+}
+#microphone
+    {
+    input
+    {
+        margin-left: 24vw;
+        width: 3vw;
+        height: 5vh;
+    }
+    h3
+    {
+        display: none;
+    }
+}
+/*iphone 11pro, 11promax, 12mini, 12, 12pro, 12promax, 13mini, 13, 13pro & 13promax*/
+@media (min-height:2340px) and (min-width:1080px) and (max-height:2778px) and (max-width:1284px)
+{
+    #navbar
+    {
+        img
+        {
+            width: 5vw;
+            height: 2vh;
+        }
+    }
+}

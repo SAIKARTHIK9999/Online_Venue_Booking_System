@@ -1,0 +1,172 @@
+@import "./body_bg";
+@import "./karthik_colors";
+@import "./nav_bar";
+form
+{
+    display: flex;
+    justify-content:center;
+    table
+    {
+        margin-top: 17vh;
+        @include glass();
+        position: relative;
+        display: flex;
+        justify-content: center;
+        label
+        {
+            font-weight: bolder;
+        }
+        #name,
+        #upwd,
+        #c_upwd,
+        #phone,
+        #email,
+        #u_address,
+        #register
+        {
+            border-radius: 1.8vh;
+            @include glass();
+            position: absolute;
+            height: 5vh;
+            cursor: none;
+            cursor: url("../curzors/Blue\ Pencil\ 1\ Normal.cur"),auto;
+            &:hover
+            {
+                transform:scale(1.1);
+                box-shadow:0vh 0vh .5vh .4vh $color11;
+                transition: 0.3s;
+            }    
+        }
+        input[type="text"]
+        {
+            margin-top: -1.25vh;
+        }
+        input[type="tel"]
+        {
+            margin-top: -1.25vh;
+        }
+        input[type="password"]
+        {
+            margin-top: -1.5vh;
+        }
+        input[type="email"]
+        {
+            margin-top: -1.5vh;
+        }
+        textarea
+        {
+            margin-top: -1.5vh;
+        }
+        img
+        {
+            max-height: 2.5vh;
+            max-width: 2vw;
+            margin-left: 14.5vw;
+            display: none;
+        }
+        #my_mic
+{
+    margin-left: 17.5vw;
+    .talk
+    {
+        background: transparent;
+        box-shadow: 0 0.5vh 1.5vh $color6;
+        width: 4vw;
+        height: 8.5vh;
+        border-radius: 50%;
+        cursor: pointer;
+        .circle
+        {
+            width: .8vw;
+            height: 3vh;
+            background: $color8;
+            position: absolute;
+            border-radius: 1vh;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            &:hover
+            {
+                background: $color12;
+            }
+        }
+        .circle::before
+        {
+            content: ')';
+            position: absolute;
+            bottom: -115%;
+            left: .3vw;
+            transform: rotate(90deg);
+            font: 1.4rem cursive;
+            color: #000;
+        }
+        .circle::after
+        {
+            content: '|';
+            position: absolute;
+            bottom: -115%;
+            left: .2vw;
+            font-weight: 1000;
+            font: 16px cursive;
+            color: #000;
+        }
+    }
+}
+        .radio
+        {
+            font-size: 2.4vh;
+            font-weight:500;
+            top: 2.75vh;
+            text-transform: capitalize;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            padding-left: 3.0vh;
+            cursor: url("../curzors/main.cur"),auto;
+            .radio + .radio
+            {
+                margin-left:.9vw;
+            }
+            input[type="radio"]
+            {
+                display: none;
+            }
+            span
+            {
+                height:2vh;
+                width:1vw;
+                border-radius: 50%;
+                border : 3px solid $color8;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: .9vh;
+                cursor: url("../curzors/main.cur"),auto;
+                &::after
+                {
+                    content:"";
+                    height:6px;
+                    width:6px;
+                    background: $color;
+                    display:block;
+                    position:absolute; 
+                    left: 50%;
+                    top:50%;
+                    transform: translate(-50%,-50%) scale(0);
+                    border-radius: 50%;
+                    transition: 300ms ease-in-out 0s;
+                }
+            }
+            &:hover
+            {
+                transform:scale(1.1);
+                color: $color;
+                transition: 0.3s;
+            }
+            input[type="radio"]:checked ~ span:after
+            {
+                transform: translate(-50%,-50%) scale(1);
+            }   
+        }
+    }
+}

@@ -1,0 +1,109 @@
+@import "./nav_bar";
+@import "./body_bg";
+@import "./karthik_colors";
+#right_svg
+{
+    margin-top: 100vh;
+    display: inline-block;
+    cursor: pointer;
+}
+#left_svg
+{
+    position: relative;
+}
+#section_one
+{
+    #pic1
+    {
+        margin-top: -1990vh;
+        margin-left: 2vw;
+        border-radius: 2vh;
+        box-shadow: 0 1vh 3vh $color6;
+    }
+    #para1
+    {
+        margin-top: -1000vh;
+        font-size: 2rem;
+        font-weight: softer;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 60vw;
+        color: $color2;
+        text-shadow: 0 1vh 3vh $color6;
+    }
+}
+#section_two
+{
+    #pic2
+    {
+        margin-top: -1790vh;
+        margin-left: .8vw;
+        border-radius: 2vh 50vh 2vh 2vh;
+        box-shadow: 0 1vh 3vh $color6;
+    }
+    #para2
+    {
+        margin-top: -940vh;
+        font-size: 2rem;
+        font-weight: softer;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 65vw;
+        color: $color10;
+        text-shadow: 0 1vh 3vh $color6;
+    }
+}
+#section_three 
+{
+    #pic3
+    {
+        margin-top: -1520vh;
+        margin-left: 2vw;
+        border-radius: 2vh;
+        box-shadow: 0 1vh 3vh $color6;
+    }
+    #para3
+    {
+        margin-top: -780vh;
+        font-size: 2rem;
+        font-weight: softer;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 54vw;
+        color: $color2;
+        text-shadow: 0 1vh 3vh $color6;
+    }
+}
+#section_four
+{
+    #pic4
+    {
+        margin-top: -1100vh;
+        margin-left: 2vw;
+        border-radius: 2vh;
+        box-shadow: 0 1vh 3vh $color6;
+    }
+    #para4
+    {
+        margin-top: -580vh;
+        font-size: 1.6rem;
+        font-weight: softer;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 54vw;
+        color: $color13;
+        text-shadow: 0 1vh 3vh $color6;
+    }
+}
+@media all and (max-width: 1366px)
+{
+    section 
+    {
+        #pic1
+        {
+            cursor: pointer;
+            width: 45vw;
+            height: 50vh;
+        }
+        p
+        {
+            color: $color10;
+        }
+    }
+}

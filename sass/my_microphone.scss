@@ -1,0 +1,95 @@
+@import "./karthik_colors";
+.dropdown:hover>.dropdown-menu
+{
+      display: block;
+}
+#my_mic
+{
+    margin-left: 15vw;
+    cursor: none;
+    cursor: url("../curzors/Link\ Select.cur"),auto;
+    .talk
+    {
+        background: transparent;
+        box-shadow: 0 0.5vh 1.5vh $color6;
+        width: 4vw;
+        height: 8.5vh;
+        border-radius: 50%;
+        cursor: none;
+        cursor: url("../curzors/Link\ Select.cur"),auto;
+        .circle
+        {
+            width: .8vw;
+            height: 3vh;
+            background: $color8;
+            position: absolute;
+            border-radius: 1vh;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: none;
+            cursor: url("../curzors/Link\ Select.cur"),auto;
+            &:hover
+            {
+                background: $color12;
+                cursor: none;
+                cursor: url("../curzors/Link\ Select.cur"),auto;
+            }
+        }
+        .circle::before
+        {
+            content: ')';
+            position: absolute;
+            bottom: -80%;
+            left: .3vw;
+            transform: rotate(90deg);
+            font: 1.4rem cursive;
+            color: #000;
+            cursor: none;
+            cursor: url("../curzors/Link\ Select.cur"),auto;
+        }
+        .circle::after
+        {
+            content: '|';
+            position: absolute;
+            bottom: -82.5%;
+            left: .2vw;
+            font-weight: 1000;
+            font: .8rem cursive;
+            color: #000;
+            cursor: none;
+            cursor: url("../curzors/Link\ Select.cur"),auto;
+        }
+    }
+}
+#my_menu 
+{
+    margin-top: -7vh;
+    font-size: .65rem;
+    cursor: none;
+    cursor: url("../curzors/Link\ Select.cur"),auto;
+}
+#dmnb
+{
+    
+    font-size: .65rem;
+    cursor: none;
+    cursor: url("../curzors/Link\ Select.cur"),auto;
+}
+#search
+{
+        background: #f2f2f2;
+        margin-top: -4vh;
+        border-radius: .6vw;
+        width: 12.5vw;
+        max-height: 5vh;
+        margin-left: 35vw;
+        background: rgba(255,255,255,.8);
+        box-shadow: $color6;
+        cursor: none;
+        cursor: url("../curzors/Blue\ Pencil\ 1\ Normal.cur"),auto;
+        &:hover
+        {
+            transform: scale(1.2);
+        }
+}

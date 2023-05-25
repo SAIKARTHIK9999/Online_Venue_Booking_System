@@ -1,0 +1,11 @@
+@import "./body_bg";
+@import "./karthik_colors";
+@import "./flowers_animation";
+@import "./nav_bar";
+#content
+{
+    @include glass();
+    margin-top: 35vh;
+    padding: 2.5vh;
+    max-width: 45vw;
+}

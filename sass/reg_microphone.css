@@ -1,0 +1,53 @@
+#my_mic1 {
+  margin-left: 17.5vw;
+}
+
+#my_mic1 .talk {
+  background: transparent;
+  -webkit-box-shadow: 0 0.5vh 1.5vh black;
+          box-shadow: 0 0.5vh 1.5vh black;
+  width: 3vw;
+  height: 6vh;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#my_mic1 .talk .circle {
+  margin-left: 7.5vw;
+  margin-top: -21vh;
+  width: .8vw;
+  height: 3vh;
+  background: #000000;
+  position: absolute;
+  border-radius: 1vh;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#my_mic1 .talk .circle:hover {
+  background: #ffffff;
+}
+
+#my_mic1 .talk .circle::before {
+  content: ')';
+  position: absolute;
+  bottom: -105%;
+  left: .3vw;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font: 1.4rem cursive;
+  color: #000;
+}
+
+#my_mic1 .talk .circle::after {
+  content: '|';
+  position: absolute;
+  bottom: -115%;
+  left: .2vw;
+  font-weight: 1000;
+  font: .8rem cursive;
+  color: #000;
+}
+/*# sourceMappingURL=reg_microphone.css.map */

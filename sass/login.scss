@@ -1,0 +1,60 @@
+@import "./body_bg";
+@import "./karthik_colors";
+@import "./nav_bar";
+@mixin center 
+{
+    display: flex;
+    justify-content:center;   
+    box-sizing: border-box !important; 
+}
+*{
+    section
+    {
+        @include center();
+        table
+        {
+            @include glass();
+            @include center();
+            max-width: 60vw;
+            margin-top: 25vh;
+            label
+            {
+                font-weight: bolder;
+            }
+            #name, #txt_pwd
+            {
+                @include glass();
+                position: absolute;
+                margin-top: -1.75vh;
+                cursor: none;
+                cursor: url("../curzors/Blue\ Pencil\ 1\ Normal.cur"),auto;
+                &:hover
+                {
+                    transform: scale(1.25);
+                    box-shadow:0vh 0vh .5vh .4vh $color11;
+                    transition: 0.3s;
+                }
+            }
+            #email
+            {
+                @include glass();
+                position: absolute;
+                margin-top: -1.75vh;
+                width: 50%;
+                cursor: none;
+                cursor: url("../curzors/Blue\ Pencil\ 1\ Normal.cur"),auto;
+                &:hover
+                {
+                    transform: scale(1.25);
+                    box-shadow:0vh 0vh .5vh .4vh $color11;
+                    transition: 0.3s;
+                }
+            }
+            img
+            {
+                margin-left: 17.5vw;
+                display: none;
+            }
+        }
+    }
+}

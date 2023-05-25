@@ -1,0 +1,23 @@
+@import "./body_bg";
+@import "./karthik_colors";
+table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include glass();
+    max-width: 30vw;
+    margin-left: 36vw;
+    margin-top: 10vh;
+    input[type="text"],
+    input[type="password"]
+    {
+        @include glass();
+        &:hover 
+        {
+            transform: scale(1.25);
+            box-shadow:0vh 0vh .5vh .4vh $color11;
+            transition: 0.3s;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import "./karthik_colors";
+@import "./body_bg";
+body
+{
+    p
+    {
+        font-size: 12vh;
+        @include glass();
+        
+    &:hover
+    {
+        color: white;
+    }
+    
+    }
+}

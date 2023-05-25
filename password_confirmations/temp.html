@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navbar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    .dropdown:hover>.dropdown-menu
+    {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar"class="navbar navbar-expand-lg navbar-light" style="background-color: #e1e0d6;" >
+    <div class="container-fluid">
+      <a class="navbar-brand" id="navbar-logo" href="../../index.jsp"><img src="../../images/nav_logo.png" width="40px" height="40px"></img></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../../services.jsp">Services</a></li>
+              <li><a class="dropdown-item" href="../../about.jsp">About us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../contact.jsp">Contact us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Authentication
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../../registration.jsp">Registration</a></li>
+              <li><a class="dropdown-item" href="../../memberlogin.jsp">Member login</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Facilities
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../../reservation.jsp">Online Reservation</a></li>
+              <li><a class="dropdown-item" href="../../cancellation1.jsp">Cancellation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <div id='microphone' class="animate__animated animate__backInUp animate__delay-5s">
+              <input class="talk" type="image" src="../../media/mike.png">
+              <h3 class="content"></h3>
+              <script src="../../js/Full_Duplex_Audio.js"></script>
+         </div>
+            </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>  
+</body>
+</html>

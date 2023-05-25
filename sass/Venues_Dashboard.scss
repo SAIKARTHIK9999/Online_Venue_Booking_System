@@ -1,0 +1,275 @@
+@import "./karthik_colors";
+@import "./body_bg";
+@import "./flowers_animation";
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: helvetica,sans-serif;
+}
+body
+{
+    background-size: 175%;
+}
+::-webkit-scrollbar
+{
+    width: 0;
+}
+#logout
+{
+    margin-left: 92.5vw;
+    margin-top: 2.5vh;
+    position: relative;
+}
+.container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container:hover .venue
+{
+    opacity: .5;
+    filter: blur(3px);
+}
+.container .venue:hover
+{
+    opacity: 1;
+    filter: blur(0px);
+}
+h1
+{
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 360px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#venue1
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 40px;
+}
+#venue1 img,
+#venue2 img,
+#venue3 img,
+#venue4 img,
+#venue5 img,
+#venue6 img,
+#venue7 img,
+#venue8 img,
+#venue9 img,
+#venue10 img
+{
+    margin-left: 5px;
+}
+#venue1 h4,
+#venue2 h4,
+#venue3 h4,
+#venue4 h4,
+#venue5 h4,
+#venue6 h4,
+#venue7 h4,
+#venue8 h4,
+#venue9 h4,
+#venue10 h4
+{
+    color: #121212;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#venue1 h5,
+#venue2 h5,
+#venue3 h5,
+#venue4 h5,
+#venue5 h5,
+#venue6 h5,
+#venue7 h5,
+#venue8 h5,
+#venue9 h5,
+#venue10 h5
+{
+    color: #121212;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#time
+{
+    margin-left: 40px;
+}
+#register_0
+{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#venue2
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 40px;
+}
+#venue3
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 40px;
+}
+#venue4
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 40px;
+}
+#venue5
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 60px;
+}
+#venue6
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+#venue7
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 60px;
+}
+#venue8
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+#venue9
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 60px;
+}
+#venue10
+{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.75);
+    border-radius: 10px;
+    max-width: 280px;
+    height: 400px;
+    margin-top: 60px;
+}
+#venue1 img,
+#venue2 img,
+#venue3 img,
+#venue4 img,
+#venue5 img,
+#venue6 img,
+#venue7 img,
+#venue8 img,
+#venue9 img,
+#venue10 img
+{
+    width: 250px;
+    height: 170px;
+    border-radius: 10px;
+}
+#venue1:hover,
+#venue2:hover,
+#venue3:hover,
+#venue4:hover,
+#venue5:hover,
+#venue6:hover,
+#venue7:hover,
+#venue8:hover,
+#venue9:hover,
+#venue10:hover
+{
+    transform: scale(1.25);
+}
+
